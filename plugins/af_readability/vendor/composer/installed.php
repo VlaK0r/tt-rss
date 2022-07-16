@@ -5,7 +5,7 @@
         'type' => 'library',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => 'fdd1c43612011060b4b876db438eb7ec62dd077d',
+        'reference' => 'c523f3726a412d095a7264174821ca07370b5092',
         'name' => '__root__',
         'dev' => true,
     ),
@@ -16,7 +16,7 @@
             'type' => 'library',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => 'fdd1c43612011060b4b876db438eb7ec62dd077d',
+            'reference' => 'c523f3726a412d095a7264174821ca07370b5092',
             'dev_requirement' => false,
         ),
         'fivefilters/readability.php' => array(
@@ -55,6 +55,15 @@
             'install_path' => __DIR__ . '/../masterminds/html5',
             'aliases' => array(),
             'reference' => 'f640ac1bdddff06ea333a920c95bbad8872429ab',
+            'dev_requirement' => false,
+        ),
+        'psr/http-factory' => array(
+            'pretty_version' => '1.0.1',
+            'version' => '1.0.1.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../psr/http-factory',
+            'aliases' => array(),
+            'reference' => '12ac7fcd07e5b077433f5f2bee95b3a771bf61be',
             'dev_requirement' => false,
         ),
         'psr/http-message' => array(
