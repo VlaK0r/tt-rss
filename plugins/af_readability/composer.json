@@ -1,5 +1,6 @@
 {
     "require": {
-        "fivefilters/readability.php": "^2.1"
+        "fivefilters/readability.php": "^2.1",
+		  "psr/http-factory": "1.0.1"
     }
 }

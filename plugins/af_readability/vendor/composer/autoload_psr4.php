@@ -8,4 +8,5 @@ $baseDir = dirname($vendorDir);
 return array(
     'andreskrey\\Readability\\' => array($vendorDir . '/fivefilters/readability.php/src'),
     'Psr\\Log\\' => array($vendorDir . '/psr/log/Psr/Log'),
+    'Psr\\Http\\Message\\' => array($vendorDir . '/psr/http-message/src', $vendorDir . '/psr/http-factory/src'),
 );
