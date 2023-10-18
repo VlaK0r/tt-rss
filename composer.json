@@ -10,14 +10,15 @@
 	    }
 	  ],
     "require": {
-        "spomky-labs/otphp": "^10.0",
-        "chillerlan/php-qrcode": "^4.3.3",
-        "mervick/material-design-icons": "^2.2",
-        "j4mie/idiorm": "dev-master",
-		"jonahgeorge/jaeger-client-php": "^1.4"
+		"spomky-labs/otphp": "^10.0",
+		"chillerlan/php-qrcode": "^4.3.3",
+		"mervick/material-design-icons": "^2.2",
+		"j4mie/idiorm": "dev-master",
+		"jonahgeorge/jaeger-client-php": "^1.4",
+		"soundasleep/html2text": "^2.1"
     },
     "require-dev": {
-        "phpstan/phpstan": "1.10.3",
-        "phpunit/phpunit": "9.5.16"
+		"phpstan/phpstan": "1.10.3",
+		"phpunit/phpunit": "9.5.16"
     }
 }

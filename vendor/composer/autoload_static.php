@@ -7,10 +7,10 @@ namespace Composer\Autoload;
 class ComposerStaticInit19fc2ff1c0f9a92279c7979386bb2056
 {
     public static $files = array (
-        '9b38cf48e83f5d8f60375221cd213eee' => __DIR__ . '/..' . '/phpstan/phpstan/bootstrap.php',
-        'ec07570ca5a812141189b1fa81503674' => __DIR__ . '/..' . '/phpunit/phpunit/src/Framework/Assert/Functions.php',
         'a4ecaeafb8cfb009ad0e052c90355e98' => __DIR__ . '/..' . '/beberlei/assert/lib/Assert/functions.php',
         '6124b4c8570aa390c21fafd04a26c69f' => __DIR__ . '/..' . '/myclabs/deep-copy/src/DeepCopy/deep_copy.php',
+        'ff1b7935a93a4a9517db3ebe0533892a' => __DIR__ . '/..' . '/opentracing/opentracing/src/OpenTracing/Tags.php',
+        '0db36546c71c357f5ee70c39bb03966f' => __DIR__ . '/..' . '/opentracing/opentracing/src/OpenTracing/Formats.php',
         '51fcf4e06c07cc00c920b44bcd900e7a' => __DIR__ . '/..' . '/thecodingmachine/safe/deprecated/apc.php',
         '288267919fedd3829a7732b5fb202197' => __DIR__ . '/..' . '/thecodingmachine/safe/deprecated/array.php',
         'a88cd08cfbf1600f7d5de6e587eee1fa' => __DIR__ . '/..' . '/thecodingmachine/safe/deprecated/datetime.php',
@@ -98,9 +98,9 @@ class ComposerStaticInit19fc2ff1c0f9a92279c7979386bb2056
         '4af1dca6db8c527c6eed27bff85ff0e5' => __DIR__ . '/..' . '/thecodingmachine/safe/generated/yaz.php',
         'fe43ca06499ac37bc2dedd823af71eb5' => __DIR__ . '/..' . '/thecodingmachine/safe/generated/zip.php',
         '356736db98a6834f0a886b8d509b0ecd' => __DIR__ . '/..' . '/thecodingmachine/safe/generated/zlib.php',
-        'ff1b7935a93a4a9517db3ebe0533892a' => __DIR__ . '/..' . '/opentracing/opentracing/src/OpenTracing/Tags.php',
-        '0db36546c71c357f5ee70c39bb03966f' => __DIR__ . '/..' . '/opentracing/opentracing/src/OpenTracing/Formats.php',
         '822502b10d2c1dae82956ef999e8b4be' => __DIR__ . '/..' . '/jonahgeorge/jaeger-client-php/src/Jaeger/Constants.php',
+        '9b38cf48e83f5d8f60375221cd213eee' => __DIR__ . '/..' . '/phpstan/phpstan/bootstrap.php',
+        'ec07570ca5a812141189b1fa81503674' => __DIR__ . '/..' . '/phpunit/phpunit/src/Framework/Assert/Functions.php',
     );
 
     public static $prefixLengthsPsr4 = array (
@@ -120,6 +120,10 @@ class ComposerStaticInit19fc2ff1c0f9a92279c7979386bb2056
         'T' => 
         array (
             'Thrift\\' => 7,
+        ),
+        'S' => 
+        array (
+            'Soundasleep\\' => 12,
         ),
         'P' => 
         array (
@@ -171,6 +175,10 @@ class ComposerStaticInit19fc2ff1c0f9a92279c7979386bb2056
         'Thrift\\' => 
         array (
             0 => __DIR__ . '/..' . '/packaged/thrift/src',
+        ),
+        'Soundasleep\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/soundasleep/html2text/src',
         ),
         'Psr\\Log\\' => 
         array (
